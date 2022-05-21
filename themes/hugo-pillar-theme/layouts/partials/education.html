@@ -1,0 +1,16 @@
+                        {{ with .Site.Data.resume.education }}
+                        <section class="resume-section education-section mb-5">
+                            <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{ .title }}</h2>
+                            <div class="resume-section-content">
+                                <ul class="list-unstyled">
+                                    {{ range .degree }}
+                                    <li class="mb-2">
+                                        <div class="resume-degree font-weight-bold">{{ .name }}</div>
+                                        <div class="resume-degree-org">{{ .college }}</div>
+                                        <div class="resume-degree-time">{{ .dates }}</div>
+                                    </li><!--//item-->
+                                    {{ end }}
+                                </ul>
+                            </div>
+                        </section><!--//education-section-->
+                        {{ end }}

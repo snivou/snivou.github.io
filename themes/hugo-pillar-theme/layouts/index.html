@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+<head>
+{{ partial "head.html" . }}
+</head>
+<body>
+	<article class="resume-wrapper text-center position-relative">
+		<div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+			{{ partial "profile.html" . }}
+			<div class="resume-body p-5">
+				{{ partial "summary.html" . }}
+				<div class="row">
+					<div class="col-lg-9">
+					{{ partial "experience.html" . }}
+					</div>
+					<div class="col-lg-3">
+						{{ partial "skills.html" . }}
+
+					{{ if .Site.Data.resume.education }}
+						{{ partial "education.html" . }}
+					{{ end }}
+					<!--
+					{{ if .Site.Data.resume.awards }}
+						{{ partial "awards.html" . }}
+					{{ end }}
+					{{ if .Site.Data.resume.languages }}
+						{{ partial "languages.html" . }}
+					{{ end }}
+					-->
+					{{ if .Site.Data.resume.interests }}
+						{{ partial "interests.html" . }}
+					{{ end }}
+					</div>
+				</div><!--//row-->
+			</div><!--//resume-body-->
+		</div>
+	</article>
+	{{ partial "footer.html" . }}
+</body>
+</html>

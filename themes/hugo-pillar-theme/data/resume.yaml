@@ -1,0 +1,214 @@
+---
+#
+#  Feel free to remove/comment-out these nodes if you don't want them to show up
+#  - education:
+#  - awards:
+#  - languages:
+#  - interests:
+#
+
+#
+#  Profile
+#
+profile:
+  name:    Steve Doe
+  tagline: Full Stack Developer
+  image:   profile.jpg
+  email:   Steve.Doe@website.com
+  phone:   0123 456 78900
+  contact:
+  -
+    class: linkedin
+    icon:  fab fa-linkedin
+    url:   //linkedin.com/in/stevedoe
+    title: linkedin.com/in/stevedoe
+  -
+    class: github
+    icon:  fab fa-github
+    url:   //github.com/username
+    title: github.com/username
+  -
+    class: codepen
+    icon:  fab fa-codepen
+    url:   //codepen.io/username/
+    title: codepen.io/username/
+  # -
+  #   class: twitter
+  #   icon:  fab fa-twitter
+  #   url:   //twitter.com/username
+  #   title: twitter.com/username
+  -
+    class: website
+    icon:  fas fa-globe
+    url:   //www.yourwebsite.com
+    title: yourwebsite.com
+
+#
+#  Summary
+#
+summary:
+  title: Career Summary
+  text: >
+    Summarise your career here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can
+    download this free resume/CV template here. Aenean commodo ligula eget dolor aenean massa.
+    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+    quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing
+    elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+    parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
+    nec, vulputate eget.
+
+#
+#  Experience
+#
+experience:
+  title: Work Experience
+  job:
+  -
+    position: Lead Developer
+    company:  Startup Hub
+    dates:    2018 - Present
+    description: >
+      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+      Donec pede justo, fringilla vel.
+    achievement: >
+      Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+      occaecati cupiditate non provident.
+    achievement_list: [
+      'Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.',
+      'At vero eos et accusamus et iusto odio dignissimos.',
+      'Blanditiis praesentium voluptatum deleniti atque corrupti.',
+      'Maecenas tempus tellus eget.'
+    ]
+    tech_used: [ 'Angular', 'Python', 'jQuery', 'Webpack', 'HTML/SASS', 'PostgresSQL' ]
+  -
+    position: Senior Software Developer
+    company:  Google
+    dates:    2014 - 2018
+    description: >
+      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+      Donec pede justo, fringilla vel.
+    achievement: >
+      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+      quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+    tech_used: [ 'React', 'Redux', 'Django', 'Webpack', 'HTML/SASS', 'MySQL' ]
+  -
+    position: Co-Founder & Lead Developer
+    company:  To-do Lists
+    dates:    2012 - 2014
+    description: >
+      **Role description** goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec. <p />
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+      Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+    tech_used: [ 'Django', 'JavaScript', 'Node.js', 'Require.js', 'HTML/SASS' ]
+  -
+    position:   Web Developer
+    additional: (Intern)
+    company:    Amazon
+    dates:      2011 - 2012
+    description: >
+      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec. Fusce vulputate eleifend sapien.
+      Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in
+      dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum.
+    tech_used: [ 'Ruby on Rails', 'jQuery', 'HTML/LESS', 'MongoDB' ]
+
+#
+#  Skills
+#
+skills:
+  title: Skills & Tools
+  heading:
+  -
+    name: Frontend
+    skill:
+    -
+      name:    Angular
+      percent: 98
+    -
+      name:    React
+      percent: 94
+    -
+      name:    JavaScript
+      percent: 96
+    -
+      name:    Node.js
+      percent: 92
+    -
+      name:    HTML/CSS/SASS/LESS
+      percent: 96
+  -
+    name: Backend
+    skill:
+    -
+      name:    Python/Django
+      percent: 95
+    -
+      name:    Ruby/Rails
+      percent: 92
+    -
+      name:    PHP
+      percent: 86
+    -
+      name:    WordPress/Shopify
+      percent: 82
+  other_label:  Others
+  other_skills: [ 'DevOps', 'Code Review', 'Git', 'Unit Testing', 'Wireframing', 'Sketch', 'Balsamiq', 'WordPress', 'Shopify' ]
+
+#
+#  Education
+#
+education:
+  title: Education
+  degree:
+  -
+    name:    MSc in Computer Science
+    college: University College London
+    dates:   2010 - 2011
+  -
+    name:    BSc Maths and Physics
+    college: Imperial College London
+    dates:   2007 - 2010
+
+#
+#  Languages
+#
+languages:
+  title: Languages
+  language:
+  -
+    name:  English
+    level: Native
+  -
+    name:  French
+    level: Professional
+  -
+    name:  Spanish
+    level: Professional
+
+#
+#  Awards
+#
+awards:
+  title: Awards
+  award:
+  -
+    name:    Award Name Lorem
+    tagline: Award desc goes here, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
+  -
+    name:    Award Name Ipsum
+    tagline: Award desc goes here, ultricies nec, pellentesque.
+
+#
+#  Interests
+#
+interests:
+  title: Interests
+  interest: [ 'Climbing', 'Snowboarding', 'Cooking' ]

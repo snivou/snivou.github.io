@@ -1,0 +1,19 @@
+baseurl      = "http://www.yourdomain.com/"
+languageCode = "en-us"
+disableKinds = ["RSS", "sitemap", "404"]
+
+#  Uncomment and provide valid UA-ID to enable GA
+# googleAnalytics = "UA-XXXXXXX-Y"
+
+#  See: https://gohugo.io/about/hugo-and-gdpr/
+[privacy]
+    [privacy.googleAnalytics]
+        anonymizeIP       = true
+        respectDoNotTrack = true
+        useSessionStorage = true
+
+[params]
+    author  = "Your Name"
+    title   = "Your Resume"
+    tagline = "My Resume"
+    style   = "pillar-1.css"

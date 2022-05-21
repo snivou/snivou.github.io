@@ -1,0 +1,10 @@
+						{{ with .Site.Data.resume.interests }}
+						<section class="resume-section interests-section mb-5">
+					        <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{ .title }}</h2>
+					        <div class="resume-section-content">
+								<ul class="list-unstyled">
+                                {{ range .interest }}<li class="mb-1">{{ . | markdownify }}</li>{{ end }}
+					            </ul>
+					        </div>
+						</section><!--//interests-section-->
+						{{ end }}
